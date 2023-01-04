@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url("https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 
 body {
   font-family: "Open Sans", serif;
 }
 
 .wrapper {
-  background: linear-gradient(to right, #5882FA,#FE642E);
+  background: linear-gradient(to right, #5882fa, #fe642e);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,15 +15,15 @@ body {
 }
 
 .main {
-  height: 90vh;
+  /* height: 90vh; */
   background: #fff;
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  width: 80%;
+  box-shadow: 0px 13px 40px -13px rgba(0, 0, 0, 0.75);
+  /* width: 80%; */
   margin: 0 auto;
 }
 
 .title-container {
-  height: 90vh;
+  height: 50vh;
   background: url("img/bg.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
@@ -37,7 +37,8 @@ body {
   font-size: 50px;
   letter-spacing: 2px;
   line-height: 1.3;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
+  display: flex;
 }
 
 .title-container__subtitle {
@@ -47,12 +48,16 @@ body {
   letter-spacing: 1px;
   line-height: 1.5;
   font-family: "Merriweather", serif;
+  display: flex;
 }
 
 .form-container {
-  background-color: #FBEFEF;
-  height: 90vh;
-  padding-top: 100px;
+  /* background-color: #fbefef; */
+  /* height: 90vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 100px; */
   padding-left: 50px;
 }
 
@@ -69,13 +74,13 @@ input[type="text"] {
   font-size: 20px;
 }
 
-input[type="text"] { 
-    outline: none;
+input[type="text"] {
+  outline: none;
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
-    -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+  -webkit-text-fill-color: #fff !important;
 }
 
 button {
@@ -105,7 +110,7 @@ button:active {
 
 .weather__key {
   color: #f16051;
-  border-bottom: solid 2px rgba(255,255,255,0.06);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.06);
   padding: 20px 0 20px 0;
   font-weight: 400;
 }
@@ -115,12 +120,12 @@ button:active {
 }
 
 .weather__value {
-  color: #190B07;
+  color: #190b07;
   font-weight: 200;
 }
 
 .weather__error {
-  color: #190B07;
+  color: #190b07;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 200;

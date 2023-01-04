@@ -5,7 +5,9 @@ import Form from "./components/form";
 // import SForm from "./components/stateless_form"
 import Titles from "./components/titles";
 
-const Api_Key = "8d2de98e089f1c28e1a22fc19a24ef04";
+// const Api_Key = "8d2de98e089f1c28e1a22fc19a24ef04";
+
+const Api_Key = "fe4feefa8543e06d4f3c66d92c61b69c"
 
 class App extends React.Component {
   state = {
@@ -50,10 +52,10 @@ class App extends React.Component {
           <div className="main">
             <div className="container">
               <div className="row">
-                <div className="col-xs-5 title-container">
+                <div className="title-container">
                   <Titles />
                 </div>
-                <div className="col-xs-7 form-container">
+                <div className="form-container">
                   <Form loadWeather={this.getWeather} />
                   <Weather
                     temperature={this.state.temperature}
