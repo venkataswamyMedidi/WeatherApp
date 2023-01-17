@@ -8,8 +8,8 @@ import registerServiceWorker from './registerServiceWorker';
 import App2 from './components/weatherFinder/App2';
 import { Provider } from "react-redux";
 import WeatherStore from "./redux/Store";
-import ReduxApp from './components/redux_weatherFinder/reduxApp';
-import CitySelector from './components/redux_weatherFinder/CitySelector'
+// import ReduxApp from './components/redux_weatherFinder/reduxApp';
+// import CitySelector from './components/redux_weatherFinder/CitySelector'
 // ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();
 

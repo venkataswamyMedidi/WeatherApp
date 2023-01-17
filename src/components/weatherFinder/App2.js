@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Form from "../form/form";
 import Titles from "../form/titles";
 // import Titles from "./components/titles";
